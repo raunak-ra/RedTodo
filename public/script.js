@@ -9,7 +9,7 @@ var tileTwoOneId = 0;
 var tileThreeId = 0;
 
 var panel =
-  '<textarea id="myText" ></textarea> <div class="actions"> <div id="like"><img src="assets/heart.svg"/></div> <div id="counter"></div> <div id="del"><img src="assets/delete.svg"/></div> </div>';
+  '<textarea id="myText" ></textarea> <div class="actions"> <div id="like"><img src="assets/heartblue.svg"/></div> <div id="counter"></div> <div id="del"><img src="assets/delete.svg"/></div> </div>';
 
 //onfocusout = "save(tileId)"
 // var card =
@@ -110,8 +110,6 @@ function clearPanel() {
   document.getElementById("addPanel").innerHTML = "";
   document.getElementById("addPanel").style.display = "none";
 }
-
-
 
 //-----------------------------------------------------
 //-----------------------------------------------------
