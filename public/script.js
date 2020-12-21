@@ -80,8 +80,10 @@ function counter(id) {
     if (counter) {
       likeCounterList.set(id, counter + 1);
     } else {
+      counter = 0;
       likeCounterList.set(id, 1);
     }
+
     document.getElementById("counter").innerText = counter + 1;
   };
 }
